@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+      <h1>Difference between flex row and flex column</h1>
+      <h3>flex-direction:-row</h3>
+      <ul>
+        <li>
+          Flex items are positioned horizontally in a single row
+        </li>
+        <li>Flex items are positioned horizontally in a single row</li>
+        <li>The main axis runs horizontally and the cross axis runs vertically</li>
+
+      </ul>
+      <h3>flex-direction:-column</h3>
+      <ul>
+        <li>
+          Flex items are positioned vertically in a single column.
+        </li>
+        <li>The main axis runs verticaly and the cross axis runs horizontally</li>
+
+      </ul>
+         
+    </div>
+    <div class="rw">
+    <div class="item1"> this is flex row</div>
+    <div class="item2"> this is flex row</div>
+  </div>
+  <br>
+  <div class="cl">
+    <div  class="item1"> this is flex column</div>
+    <div class="item2"> this is flex column</div>
+  </div>
+  <hr>
+  <h1>Inline stylesheet </h1>
+  <p>When CSS is written using the style attribute, it’s called an “inline style <br>
+    <!-- 'syntex: <<p style="color: red;">This is inline CSS</p>' -->
+  </p>
+  <br>
+  <h1>Internal stylesheet </h1>
+  <p>Internal CSS is a method that applies CSS styling below the head section of HTML using style tag  <br>
+    </p>
+    <h1>Externalstylesheet </h1>
+  <p>External CSS is a method that applies CSS styling by providing the link of external CSS file. This is considerd as best approch.  <br>
+    </p>
+    <hr>
+    <h1>Justify Content</h1>
+    <P>This allow us to arrange content horizontally.This has below values</P>
+    <ul>
+      <li>Start</li>
+      <li>End </li>
+      <li>Center</li>
+      <li>Space-between</li>
+      <li>Space-around</li>
+      <li>space-evenly</li>
+    </ul>
+    <h2>
+      example:- justify-content:space-between;
+    </h2>
+    <div class="rw">
+      <div class="item1"> this is flex row</div>
+      <div class="item2"> this is flex row</div>
+    </div>
+    <hr>
+    <h1>Absolute  and relative Positioning</h1>
+    <P>Absolute Position is another CSS technique that adjusts an element’s position relative to its parent.
+      If no parent element is present, the document body is used as the parent. The syntax for absolute positioning is position: absolute;.</P>
+    <p>Relative positioning is a CSS technique that allows an element to be adjusted from its normal position.
+       The syntax for relative positioning is position: relative;. <br>
+       When we set the top, right, bottom, and left properties of an element with relative positioning, it moves from its original location.
+        However, it’s important to note that other elements on the page will not fill the gap left by the moved element.</p>
+        <div class="relative">
+            This element has position: relative;
+              <div class="absolute">
+                This element has position: absolute;
+            </div>
+        </div>
+        <hr>
+        <h1>z-index</h1>
+        <div>The z-index property specifies the stack order of an element.It is used to define the order of elements if they overlap on each other.
+          <br>
+          An element with greater stack order is always in front of an element with a lower stack order.</div>
+     </div>
+     <h1>Z-index Example</h1>
+     <div class="container1">
+     <div class="box1">Z-index:-1</div>
+     <div class="box2">Z-index:1</div>
+    </div>
+    </div>
+    <hr>
+    <h1>Padding and Margin</h1>
+    <p>Margin is the space around an element.It is used to move an element up or down on a page as well as left or right.</p>
+    <p>Padding is the space between the element and the related content inside it. It determines how elements look and sit within a container.</p>
+    <h1>Margin Example</h1>
+      <p class="center">
+      Element with margin:auto .
+      </p>
+      <p class="outside">
+        Element with margin:100px .
+    </p>
+    <hr>
+  
+
+</body>
+</html>
